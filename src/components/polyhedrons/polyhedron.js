@@ -1,6 +1,10 @@
-import './polyhedron.scss';
-import React from 'react';
-import classnames from 'classnames';
+/**
+ * Code Adapted from Alexander Lipianu.
+ */
+
+import "./polyhedron.scss";
+import React from "react";
+import classnames from "classnames";
 
 // shape counter
 let counter = 0;
@@ -19,13 +23,22 @@ class Polyhedron extends React.Component {
    */
   render() {
     return (
-      <div className={classnames('shape', this.props.type, this.props.animated === this.id && 'animated')}>
-        {React.Children.map(this.props.children || [], child => (
-          React.cloneElement(child, { parentId: this.id, animationChange: this.props.animationChange })
-          ))}
+      <div
+        className={classnames(
+          "shape",
+          this.props.type,
+          this.props.animated === this.id && "animated"
+        )}
+      >
+        {React.Children.map(this.props.children || [], child =>
+          React.cloneElement(child, {
+            parentId: this.id,
+            animationChange: this.props.animationChange
+          })
+        )}
       </div>
     );
   }
-};
+}
 
 export { Polyhedron, counter };

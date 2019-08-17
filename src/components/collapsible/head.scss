@@ -1,0 +1,14 @@
+/**
+ * Code Adapted from Alexander Lipianu.
+ */
+
+@import '../../_shared';
+
+div.head-collapse {
+  @extend %text-centered;
+  padding: 1em;
+
+  &.has-body {
+    @extend %hoverable;
+  }
+}

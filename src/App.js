@@ -1,30 +1,28 @@
+/**
+ * Code Adapted from Alexander Lipianu.
+ */
+
 import "./App.scss";
 import React from "react";
-import { Loader, Footer, LoadingAnimation } from "./components/components";
+import { Loader, Footer, LoadingAnimation } from "./components";
 import {
   SplashContainer,
   AboutContainer,
   TimelineContainer,
   SkillsContainer,
   ExperienceContainer,
-  ProjectsContainer,
-  PensContainer
-} from "./containers/containers";
+  ProjectsContainer
+} from "./containers";
 import data from "./data.json";
 
 /**
  * App component
  */
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: null,
-      errorMessage:
-        "api.alexlipianu.com is currently unavailable or cannot be reached"
-    };
-    this.onSuccess = this.onSuccess.bind(this);
-  }
+  state = {
+    data: null,
+    errorMessage: "Cannot get data"
+  };
 
   /**
    * Fetch app data
@@ -48,12 +46,12 @@ class App extends React.Component {
       "projects",
       "pens"
     ];
-    sections.forEach(section => {
+    for (const section of sections) {
       const sectionData = result.find(x => x._id === section);
       if (sectionData) {
         data[section] = sectionData;
       }
-    });
+    }
     this.setState({ data });
   };
 
@@ -63,7 +61,7 @@ class App extends React.Component {
   render() {
     const { data } = this.state;
 
-    const renderIfData = data ? (
+    const dataRender = data ? (
       <>
         <SplashContainer {...data.splash} />
         <AboutContainer {...data.about} />
@@ -71,7 +69,6 @@ class App extends React.Component {
         <SkillsContainer {...data.skills} />
         <ExperienceContainer {...data.experience} />
         <ProjectsContainer {...data.projects} />
-        <PensContainer {...data.pens} />
         <Footer />
       </>
     ) : null;
@@ -84,7 +81,7 @@ class App extends React.Component {
         onError={this.onError}
         errorMessage={this.state.errorMessage}
       >
-        {renderIfData}
+        {dataRender}
       </Loader>
     );
   }

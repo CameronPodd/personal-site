@@ -1,15 +1,19 @@
-import './experience.scss';
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Section, Collapsible } from '../../components/components';
+/**
+ * Code Adapted from Alexander Lipianu.
+ */
+
+import "./experience.scss";
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Section, Collapsible } from "../../components";
 
 /**
  * Renders experience section
  * @param {*} props - the component's properties
- * 
+ *
  * usage: <ExperienceContainer title="V" description="W" data={[{details: 'X', icon: 'Y', label?: 'Z'}, ...]} />
  */
-const ExperienceContainer = (props) => {
+const ExperienceContainer = props => {
   const colWidth = Math.floor(12 / props.data.length);
   return (
     <Section theme="light" title={props.title} description={props.description}>

@@ -4,9 +4,9 @@
     "data": [
         {
             "_id": "splash",
-            "name": "Alexander Lipianu",
-            "title": "Web Developer",
-            "src": "https://api.alexlipianu.com/images/bluesky.jpg"
+            "name": "Cameron Podd",
+            "title": "Full Stack Software Engineer",
+            "src": "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1226&q=80"
         },
         {
             "_id": "about",
@@ -409,38 +409,6 @@
                     }
                 ]
             }
-        },
-        {
-            "_id": "pens",
-            "title": "Pens",
-            "description": "CodePen pens give me the opportunity to play around with different front-end technologies, all while having fun designing quirky little animations. Below you’ll find some of my pens along with their source code, feel free to checkout my CodePen profile for more.",
-            "entriesPerRow": 2,
-            "data": [
-                {
-                    "hash": "pVazKa",
-                    "title": "Hamburger Loading Animation (CSS + HTML)"
-                },
-                {
-                    "hash": "GGoNOa",
-                    "title": "Paint Roller Loading Animation"
-                },
-                {
-                    "hash": "XYdpzP",
-                    "title": "Alarm Clock Loading Screen"
-                },
-                {
-                    "hash": "XqXONv",
-                    "title": "iPhone 8"
-                },
-                {
-                    "hash": "MzeJWZ",
-                    "title": "Color-Changing Polyhedrons"
-                },
-                {
-                    "hash": "XyKxNq",
-                    "title": "Coil Generator"
-                }
-            ]
         }
     ]
 }
