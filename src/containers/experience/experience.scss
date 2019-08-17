@@ -10,7 +10,7 @@
 @include keyframes(grow-text) {
   to { @include transform(scale(1.1)); }
 }
-@include fade-body-text(transition-expand-light, null, $theme-light, null, $theme-accent);
+@include fade-body-text(transition-expand-light, null, $theme-light, null, $theme-dark);
 
 .grid-experience {
   .head-collapse {

@@ -8,7 +8,6 @@ import { Loader, Footer, LoadingAnimation } from "./components";
 import {
   SplashContainer,
   AboutContainer,
-  TimelineContainer,
   SkillsContainer,
   ExperienceContainer,
   ProjectsContainer
@@ -40,7 +39,6 @@ class App extends React.Component {
     const sections = [
       "splash",
       "about",
-      "timeline",
       "skills",
       "experience",
       "projects",
@@ -65,7 +63,6 @@ class App extends React.Component {
       <>
         <SplashContainer {...data.splash} />
         <AboutContainer {...data.about} />
-        <TimelineContainer {...data.timeline} />
         <SkillsContainer {...data.skills} />
         <ExperienceContainer {...data.experience} />
         <ProjectsContainer {...data.projects} />

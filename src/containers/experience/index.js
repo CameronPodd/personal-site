@@ -20,7 +20,22 @@ const ExperienceContainer = props => {
       <Collapsible.Grid className="grid-experience">
         <Collapsible.Row>
           {props.data.map((experience, i) => (
-            <Collapsible.Col key={i} md={colWidth} body={experience.details}>
+            <Collapsible.Col
+              key={i}
+              md={colWidth}
+              body={
+                !Array.isArray(experience.details) ||
+                !experience.details.length ? (
+                  experience.details
+                ) : (
+                  <ul>
+                    {experience.details.map((detail, i) => (
+                      <li key={i}>{detail}</li>
+                    ))}
+                  </ul>
+                )
+              }
+            >
               <FontAwesomeIcon icon={experience.icon} />
               {experience.label && <h5>{experience.label}</h5>}
             </Collapsible.Col>
