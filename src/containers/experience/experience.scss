@@ -61,7 +61,7 @@ $image-spacing-bottom: 30px;
 
   .image {
     @extend %non-selectable;
-    @include circle(100%);
+    @include size(256px);
     margin-bottom: $image-spacing-bottom;
   }
 }
