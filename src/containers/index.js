@@ -7,6 +7,7 @@ import ExperienceContainer from "./experience";
 import ProjectsContainer from "./projects";
 import SkillsContainer from "./skills";
 import SplashContainer from "./splash";
+import EducationContainer from "./education";
 
 // Container module
 export {
@@ -14,5 +15,6 @@ export {
   ExperienceContainer,
   ProjectsContainer,
   SkillsContainer,
-  SplashContainer
+  SplashContainer,
+  EducationContainer
 };

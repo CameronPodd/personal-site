@@ -20,13 +20,22 @@ const Section = props => (
       {props.description && <p>{props.description}</p>}
       {!props.headshot ? (
         props.children
-      ) : (
+      ) : props.theme === "dark" ? (
         <Row className="align-items-center">
           <Col md={5} lg={4}>
             <img src={props.headshot} className="headshot" alt="headshot" />
           </Col>
           <Col md={6} lg={7} className="offset-md-1">
             {props.children}
+          </Col>
+        </Row>
+      ) : (
+        <Row className="align-items-center">
+          <Col md={6} lg={7} className="offset-md-1">
+            {props.children}
+          </Col>
+          <Col md={5} lg={4}>
+            <img src={props.headshot} className="headshot" alt="headshot" />
           </Col>
         </Row>
       )}

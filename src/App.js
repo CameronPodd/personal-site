@@ -8,6 +8,7 @@ import { Loader, Footer, LoadingAnimation } from "./components";
 import {
   SplashContainer,
   AboutContainer,
+  EducationContainer,
   SkillsContainer,
   ExperienceContainer,
   ProjectsContainer
@@ -64,7 +65,7 @@ class App extends React.Component {
       <>
         <SplashContainer {...data.splash} />
         <AboutContainer {...data.about} />
-        <ExperienceContainer {...data.education} />
+        <EducationContainer {...data.education} />
         <SkillsContainer {...data.skills} />
         <ExperienceContainer {...data.experience} />
         <ProjectsContainer {...data.projects} />

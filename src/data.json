@@ -30,37 +30,16 @@
         {
             "key": "education",
             "title": "Education",
-            "description": "I've had the pleasure to work at a few awesome places in my life.  Below are the places I've worked.  Toggle to see some of my responsibilities at each place!",
-            "data": [
-                {
-                    "details": [
-                        "Spearheaded component and library-based redesign of frontend code, reducing code by 75%",
-                        "Redesigned and rebuilt backend, decreasing required calls by 30% and increasing code reuse by 70%",
-                        "Built enterprise full-stack application in 10 weeks, culminating in early product release"
-                    ],
-                    "src": "https://media.licdn.com/dms/image/C560BAQGNYMWVbWSezg/company-logo_400_400/0?e=1574294400&v=beta&t=F2iYyq8c2sUkp3SAU2YBCGg8_qiSLDNg3Yrp1L5rb_I",
-                    "label": "LEFT Travel",
-                    "dates": "May 2019 - Present"
-                },
-                {
-                    "details": [
-                        "Created an import processor integrating CSV file input",
-                        "Developed 500+ lines of production code in C# using Visual Studio"
-                    ],
-                    "src": "https://media.licdn.com/dms/image/C4D0BAQFWBurOB7pj3Q/company-logo_400_400/0?e=1574294400&v=beta&t=MFzhK-QiYf3RTXpbKMaJC74rBDRKXP2wTIvAuRqcj80",
-                    "label": "Nymbl Science",
-                    "dates": "June 2018 - August 2018"
-                },
-                {
-                    "details": [
-                        "Assisted customers in the sale of 50+ bicycles and $2000 of equipment",
-                        "Built 150 bicycles to be sold"
-                    ],
-                    "src": "https://irp-cdn.multiscreensite.com/a4fcd181b544411a880cc91e5e529841/dms3rep/multi/desktop/thecyclist+logo.png",
-                    "label": "The Cyclist Bike Shop",
-                    "dates": "May 2018 - August 2018"
-                }
-            ]
+            "image": "https://lh3.googleusercontent.com/RjAbwHkTx5Vj3UlSPNPUGfLIRNAVVwLMxdh2XDeUOYpd0leUdmYqqpwjP__iA6DRUqcB49YUtQBNYJLkMAaJ-MWjW18coMnbAD3zxzSgQmYYaL31lhj90auFBeqtyWmzVutSx8hTdl7A89OQVDdP_h5nhChKo5kX4ch_nw5liJNEvsHYy-rPk-rHBYFT557lzgfEcngNoaTrdmL0wIZRawuIsKgR07j2ZwTmltZzqZu-8CvoMu_GU-kHmyxMxFtwB5rqe7sVwxScw8InJKOf-qCe6j0k8oKvqE3R4rGeTRr4o1Gb2o94rhdvQx9bZy7SmJU_9XXFUO8K3wAbCl1n0STSw_-zDmNXW9qN1NUdFeAyapCxjpwEm9TuNS4ZRiKvnX-MDZqX2ywAeFXzNYvBnTdTyPsS3NdRUVCU5DHxVe7_GbKjZWiKwExHaw2cLxSv09cDcMIx0i9yE2VKZ0akGl-Sm7W-ITppnxmoqrg9onpM9a4WBjN-B3mskTniDyzrlnj9gvBzeskf4PcFRUuK4W7DHcvXwFWwD8X_VDFWT1LBDdXBCIn29d8HpepdgbzeqArC9VkxEWH9prUUt7CP-G9zztgTSLbfm4ixuOEMzVhV8ZqHcZB2nGFbSlJ6JArBgeNd8hJOUsvY_0OVuCKh40tKVf5Vrr8=w1000-h1028-no",
+            "text": {
+                "text": "My name is Cameron Podd and I am a Full-Stack Software Engineer in Los Angeles, CA.\nI am an incoming junior pursuing a B.S. in Computer Science / Business Administration and a M.S. in Computer Science at the {{0}}.",
+                "links": [
+                    {
+                        "label": "University of Southern California",
+                        "href": "https://www.cs.usc.edu/"
+                    }
+                ]
+            }
         },
         {
             "key": "skills",
@@ -398,31 +377,22 @@
             "data": [
                 {
                     "details": [
-                        "Spearheaded component and library-based redesign of frontend code, reducing code by 75%",
-                        "Redesigned and rebuilt backend, decreasing required calls by 30% and increasing code reuse by 70%",
-                        "Built enterprise full-stack application in 10 weeks, culminating in early product release"
+                        "Successfully transformed team from $15,000 per year loss to financial viability",
+                        "Spearheaded compliance efforts to secure $8,000 in funding from USC",
+                        "Created three new revenue streams, increasing expected revenues by 20%"
                     ],
-                    "src": "https://media.licdn.com/dms/image/C560BAQGNYMWVbWSezg/company-logo_400_400/0?e=1574294400&v=beta&t=F2iYyq8c2sUkp3SAU2YBCGg8_qiSLDNg3Yrp1L5rb_I",
-                    "label": "LEFT Travel",
+                    "src": "https://lh3.googleusercontent.com/IUbkyBl6elt90eDv6TY7c5iaq-TVI6E4zQ7a3GQbBEYY2UiBpEEELs3cAHuJHOl6jXjJhj-NbznKftST20yc9uQER9a0fi2HMOfPw4lekCcjVPpZxnrdvvlAa8BvMG0tyAZq7FVwuw5BAezSIieI7gAAmGPyH0zVy3CW6aqcT6zCAAapneRZWxQjv67wqWaxZfHToN9CsX56Det9sKjF2c_TXyy-XpkK9ZgZ5Sm6RllnBder1Ql660fLIXRsNXSpszjnvbe5b7F5h41Qdk4PQlZb93-87OKMQQ7UQCJFFUahlrsB-u09qkhR15MlaSQ3Jc4iitOjEn98QwOUA6QoQS0VCoQb7TRkZx9_KjQ39xL7Ijbl2uzeS7bhY5WTLr7zL8_evw06dByJFTi2uwqi8Xy6AOkwQxT6TZ6VxYlGcyztlUPoYZbK330RKvrjOXjLKF94O4m9pyhgDZFnWcIQULEuSumdlp2cuAh0aNAUwcbDS2ZINzU-7ED0z9PwOPvt6qfT4KM5AyGG1o6ExXduY0fzFpe746-xvJo5R2MWJZerHA7geAinxFrtIZ9oCQAUqk3d4sfqUr9Gqbg5tGRPrv50yzr2uf3IIliloQB5770vqLCam6hXOWOrYBgG148FNP32bwQ0qgOE48Yj3BtE6c-WoxmJxn4=w500-h518-no",
+                    "label": "USC Ice Hockey",
                     "dates": "May 2019 - Present"
                 },
                 {
                     "details": [
-                        "Created an import processor integrating CSV file input",
-                        "Developed 500+ lines of production code in C# using Visual Studio"
+                        "Member of Elite Start-up Incubator, Class of Fall 2018",
+                        "Created, managed, and pitched startup through pre-seed time frame"
                     ],
-                    "src": "https://media.licdn.com/dms/image/C4D0BAQFWBurOB7pj3Q/company-logo_400_400/0?e=1574294400&v=beta&t=MFzhK-QiYf3RTXpbKMaJC74rBDRKXP2wTIvAuRqcj80",
-                    "label": "Nymbl Science",
-                    "dates": "June 2018 - August 2018"
-                },
-                {
-                    "details": [
-                        "Assisted customers in the sale of 50+ bicycles and $2000 of equipment",
-                        "Built 150 bicycles to be sold"
-                    ],
-                    "src": "https://irp-cdn.multiscreensite.com/a4fcd181b544411a880cc91e5e529841/dms3rep/multi/desktop/thecyclist+logo.png",
-                    "label": "The Cyclist Bike Shop",
-                    "dates": "May 2018 - August 2018"
+                    "src": "http://usclavalab.org/LavaLab_Circle_Orange.png",
+                    "label": "USC LavaLab",
+                    "dates": "September 2018 - Present"
                 }
             ]
         }
