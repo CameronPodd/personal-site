@@ -1,0 +1,446 @@
+{
+    "name": "OK",
+    "code": 200,
+    "data": [
+        {
+            "_id": "splash",
+            "name": "Alexander Lipianu",
+            "title": "Web Developer",
+            "src": "https://api.alexlipianu.com/images/bluesky.jpg"
+        },
+        {
+            "_id": "about",
+            "title": "About",
+            "headshot": "https://api.alexlipianu.com/images/headshot.jpg",
+            "message": {
+                "text": "Hi there, I'm Alex!",
+                "width": 247
+            },
+            "description": {
+                "_id": "description",
+                "text": "My name is Alexander Lipianu and I am a Full-Stack Developer from Ontario, Canada.\nI am a second-year student pursuing a Bachelor of Computer Science at the {{0}}.\nI am knowledgeable of various JavaScript web frameworks and a master of markup and styling. I have extensive server-side development experience and have worked with both relational and non-relational databases. I also have some experience with dev ops and networking, and possess strong computer science fundamentals in the topics of data structures, algorithms, design patterns, data modeling and software architecture.\nMy objective in life is to solve challenging problems, make a big splash, and have some ES6 fun along the way!\nFor this upcoming work term, I will be joining the {{5}} team as a Front-End Developer Co-op.\nMy previous positions include Web Developer at {{1}}, Software Developer at {{2}}, Application Developer at {{3}}, and Simulation Sub Team Member on the {{4}} student design team.",
+                "links": [
+                    {
+                        "label": "University of Waterloo",
+                        "href": "https://cs.uwaterloo.ca/"
+                    },
+                    {
+                        "label": "Avidbots Corp.",
+                        "href": "https://www.avidbots.com/"
+                    },
+                    {
+                        "label": "InFlight Corp.",
+                        "href": "https://www.inflightintegration.com/"
+                    },
+                    {
+                        "label": "CareGo Tek Inc.",
+                        "href": "https://carego.com/"
+                    },
+                    {
+                        "label": "WATonomous",
+                        "href": "https://watonomous.ca/"
+                    },
+                    {
+                        "label": "Purolator",
+                        "href": "https://www.purolator.com/en/resources-and-support/about-us/corporate-information/corporate-profile.page?"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "timeline",
+            "title": "Timeline",
+            "description": "With almost 2 years of work experience at 4 companies spanning several different industries, I have the experience and insight you’ve been seeking that can elevate your product to new heights. Hover the timeline below to browse my past co-ops, internships and design teams throughout my high school and undergraduate education.",
+            "data": [
+                {
+                    "year": 2016,
+                    "color": "darkcyan",
+                    "entries": [
+                        {
+                            "shape": "circle",
+                            "content": "Software Developer at InFlight Corp. (Jul. – Sept.)"
+                        }
+                    ]
+                },
+                {
+                    "year": 2017,
+                    "color": "darkorchid",
+                    "entries": [
+                        {
+                            "shape": "circle",
+                            "content": "Software Developer in Test at InFlight Corp. (Jul. – Sept.)"
+                        },
+                        {
+                            "shape": "square",
+                            "content": "Start of BCS Degree at University of Waterloo (Sept.)"
+                        },
+                        {
+                            "shape": "circle",
+                            "content": "Simulation Sub Team Member at WATonomous (Sept. – Dec.)"
+                        }
+                    ]
+                },
+                {
+                    "year": 2018,
+                    "color": "darkslateblue",
+                    "entries": [
+                        {
+                            "shape": "circle",
+                            "content": "Application Developer at CareGo Tek Inc. (Apr. – Aug.)"
+                        }
+                    ]
+                },
+                {
+                    "year": 2019,
+                    "color": "#E91E63",
+                    "entries": [
+                        {
+                            "shape": "circle",
+                            "content": "Web Developer at Avidbots Corp. (Jan. – Apr.)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_id": "skills",
+            "title": "Skills",
+            "description": "Through my past work experiences and side projects, I’ve managed to gained exposure to a wide variety of languages, frameworks and technologies. Toggle the skill bars below to learn more about how I’ve acquired each skill.",
+            "entriesPerRow": 4,
+            "groups": [
+                {
+                    "name": "Languages",
+                    "data": [
+                        {
+                            "label": "JavaScript",
+                            "level": "expert",
+                            "details": [
+                                "Used at Avidbots, CareGo Tek and InFlight",
+                                "Used in this site, 3 private in-progress side projects, some CodePens"
+                            ]
+                        },
+                        {
+                            "label": "C#",
+                            "level": "advanced",
+                            "details": [
+                                "Used at CareGo Tek to create Razor components, data models and controllers, as well as implement server-side computation optimizations and new back-end functionality",
+                                "Used at InFlight to add new features to internal debugging and demoing tools",
+                                "Imgrypt developed in C#"
+                            ]
+                        },
+                        {
+                            "label": "C++",
+                            "level": "advanced",
+                            "details": [
+                                "Taught in CS 246 alongside topics including: object-oriented programming and designing, coding, debugging, testing, and documenting medium-sized programs",
+                                "Biquadris developed in C++"
+                            ]
+                        },
+                        {
+                            "label": "C",
+                            "level": "intermediate",
+                            "details": [
+                                "Taught in CS 136 alongside topics including: sorting algorithms, lists, stacks, queues, trees and abstract data types"
+                            ]
+                        },
+                        {
+                            "label": "PHP",
+                            "level": "intermediate",
+                            "details": [
+                                "Used at Avidbots to add API endpoints, implement new back-end functionality and do server-side image processing"
+                            ]
+                        },
+                        {
+                            "label": "Bash",
+                            "level": "intermediate",
+                            "details": [
+                                "Shell scripting taught in CS 246, actively used in Linux work environment at school and at Avidbots",
+                                "Makefile for Biquadris"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Frameworks & Libraries",
+                    "data": [
+                        {
+                            "label": "Bootstrap",
+                            "level": "expert",
+                            "details": [
+                                "Used at CareGo Tek to create responsive layouts and add alerts, buttons, cards, button groups, collapsible elements, info groups, modals and navbars",
+                                "Used in old version of this site to create responsive layouts and add buttons, cards, collapsible elements, carousels and navbars",
+                                "Used in current version of this site to create responsive layout and add cards",
+                                "Used in 3 private in-progress side projects"
+                            ]
+                        },
+                        {
+                            "label": "Angular",
+                            "level": "advanced",
+                            "details": [
+                                "Used at Avidbots to create components, add new functionality and extend services in user interface",
+                                "Used in 1 private in-progress side project"
+                            ]
+                        },
+                        {
+                            "label": "Angular.js",
+                            "level": "advanced",
+                            "details": [
+                                "Used at Avidbots to create components, add new functionality and extend services in legacy user interface"
+                            ]
+                        },
+                        {
+                            "label": "RxJS",
+                            "level": "advanced",
+                            "details": [
+                                "Used at Avidbots to implement and optimize inter-component interaction",
+                                "Used in 1 private in-progress side project",
+                                "Used in RxJS Pulsing Grid CodePen"
+                            ]
+                        },
+                        {
+                            "label": "ASP.NET MVC",
+                            "level": "advanced",
+                            "details": [
+                                "Used at CareGo Tek in back-end of warehouse automation management system (see C#)"
+                            ]
+                        },
+                        {
+                            "label": "jQuery",
+                            "level": "advanced",
+                            "details": [
+                                "Used at CareGo Tek to add interactivity to user interface and communicate with controller",
+                                "Used in old version of this site to create collapsible components, track element visibility and populate DOM with dynamic elements"
+                            ]
+                        },
+                        {
+                            "label": "React",
+                            "level": "advanced",
+                            "details": [
+                                "Used in current version of this site to add interactivity and create dynamic components",
+                                "Used in 2 private in-progress side projects"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Databases",
+                    "data": [
+                        {
+                            "label": "SQL",
+                            "level": "intermediate",
+                            "details": [
+                                "Used at CareGo Tek to create view queries, make table structure modifications, update data and populate testing data",
+                                "Used in 2 private in-progress side projects"
+                            ]
+                        },
+                        {
+                            "label": "MongoDB",
+                            "level": "novice",
+                            "details": [
+                                "Used in the API of the current version of this site to store section content",
+                                "Used in 2 private in-progress side projects"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Other",
+                    "data": [
+                        {
+                            "label": "HTML/PUG",
+                            "level": "expert"
+                        },
+                        {
+                            "label": "CSS/SCSS",
+                            "level": "expert"
+                        },
+                        {
+                            "label": "Node.js",
+                            "level": "intermediate",
+                            "details": [
+                                "Used at InFlight to develop a framework for black box regression testing",
+                                "Used in the API of the current version of this site",
+                                "Used in 3 private in-progress side projects"
+                            ]
+                        },
+                        {
+                            "label": "LINQ",
+                            "level": "intermediate",
+                            "details": [
+                                "Used at CareGo Tek to query data and optimize data queries"
+                            ]
+                        },
+                        {
+                            "label": "Docker",
+                            "level": "novice",
+                            "details": [
+                                "Used at Avidbots to build Docker images and run Docker containers"
+                            ]
+                        },
+                        {
+                            "label": "Kubernetes",
+                            "level": "novice",
+                            "details": [
+                                "Used at Avidbots to run Kubernettes clusters"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_id": "experience",
+            "title": "Experience",
+            "description": "Flexibility, adaptability and versatility are some of the most important traits that a software developer can possess. That is why I have taken it upon myself to learn as much as I can, both inside and outside the workplace, in several different areas of software development. Toggle the icons below to learn about my experiences in each area.",
+            "data": [
+                {
+                    "details": "Looking for a developer with experience in testing or developing testing frameworks and applications? Having spent two summers at InFlight Corporation developing internal testing tools for enterprise systems, testing serves as my backbone and one of my earliest exposures to software development. At InFlight Corporation, I redesigned the UI of and added Google Chrome support to an internal demoing tool, as well as added new features to an internal Fiddler debugging extension. I also developed an automated client-side black-box web application testing framework, and conducted functional testing of HTTP requests, SSO, JSON objects, and web page elements.",
+                    "icon": "cogs",
+                    "label": "Testing"
+                },
+                {
+                    "details": "Need an experienced and enthusiastic web developer on your team? At the end of my freshman year of university, I worked at CareGo Tek Inc. doing full-stack web development and basic database administration for a web application. On the front-end, I added new pages, styled pages with both static and dynamic layouts, incorporated new interactive elements, created components for tables and forms, and improved mobile responsiveness. On the back-end, I optimized database queries, lowered the number of database calls, reduced web page load times, and improved the efficiency of frequently used data transformations and computations. In my spare time, when I’m not busy developing and maintaining this website, I like to practice my front-end web development skills and make contributions to the web development community through CodePen.",
+                    "icon": "globe",
+                    "label": "Web"
+                },
+                {
+                    "details": "Graphics and games have always been two of my greatest interests. In my junior year of high school, my interest in games led me to create a two-player street fighter videogame called Paint Street Fighter. The following year, my interest in low-level graphics drew me to DirectX 12 - reading and working through Frank D. Luna’s 3D Programming with DirectX 12. Throughout my freshman year of university, I worked on a student design team called WATonomous at the University of Waterloo, where I focused on vehicle camera simulation. During this period, I also developed a steganography program, Imgrypt, that encrypts and decrypts messages from image pixel data.",
+                    "icon": "gamepad",
+                    "label": "Games"
+                }
+            ]
+        },
+        {
+            "_id": "projects",
+            "title": "Projects",
+            "description": "The next big thing may be right under your nose. Below you’ll find some of my personal projects with GitHub and download links, feel free to try them out yourself.",
+            "entriesPerRow": 2,
+            "data": {
+                "tagMap": {
+                    "languages": {
+                        "color": "#03A9F4",
+                        "accent": "#015a83"
+                    },
+                    "frameworks": {
+                        "color": "#4CAF50",
+                        "accent": "#285c29"
+                    },
+                    "libraries": {
+                        "color": "#FF9800",
+                        "accent": "#814e00"
+                    },
+                    "other": {
+                        "color": "#9C27B0",
+                        "accent": "#6f1c7d"
+                    }
+                },
+                "projects": [
+                    {
+                        "title": "Website",
+                        "image": "https://api.alexlipianu.com/images/thumbnails/site.png",
+                        "description": "Personal website that showcases my experience, skills and projects. Comprised of a React front-end deployed through GitHub pages, and a REST API deployed on an EC2 instance that serves static assets and website content from a NoSQL database.",
+                        "tools": {
+                            "languages": [
+                                "JavaScript",
+                                "HTML",
+                                "SCSS"
+                            ],
+                            "frameworks": [
+                                "React",
+                                "Node.js"
+                            ],
+                            "libraries": [
+                                "Bootstrap",
+                                "Express"
+                            ],
+                            "other": [
+                                "MongoDB",
+                                "Google Analytics",
+                                "AWS EC2"
+                            ]
+                        },
+                        "links": {
+                            "github": "https://github.com/alipianu/alipianu.github.io"
+                        }
+                    },
+                    {
+                        "title": "Biquadris",
+                        "image": "https://api.alexlipianu.com/images/thumbnails/biquadris.png",
+                        "description": "Multiplayer, non-real time command-line version of Tetris. Includes features such as command editing, special actions, color graphics and support for 2+ players. Responsible for the coordinate, cell, block, grid and command components.",
+                        "tools": {
+                            "languages": [
+                                "C++"
+                            ]
+                        },
+                        "links": {
+                            "github": "https://github.com/alipianu/Biquadris"
+                        }
+                    },
+                    {
+                        "title": "Imgrypt",
+                        "image": "https://api.alexlipianu.com/images/thumbnails/imgrypt.png",
+                        "description": "Steganography program that conceals and reveals messages in the pixel data of images, leaving no noticeable pixel noise. Encrypted pixel data is uncrackable and passwords have up to a 1 in 10^27 chance of being cracked.",
+                        "tools": {
+                            "languages": [
+                                "C#"
+                            ],
+                            "frameworks": [
+                                ".NET"
+                            ]
+                        },
+                        "links": {
+                            "github": "https://github.com/alipianu/Imgrypt",
+                            "download": "https://github.com/alipianu/Imgrypt/archive/v1.0.0.zip"
+                        }
+                    },
+                    {
+                        "title": "Paint Street Fighter",
+                        "image": "https://api.alexlipianu.com/images/thumbnails/psf.jpg",
+                        "description": "Two-player retro street fighter video game featuring animated characters and health bars, soundtracks, and four maps to play on.",
+                        "tools": {
+                            "languages": [
+                                "Turing"
+                            ]
+                        },
+                        "links": {
+                            "github": "https://github.com/alipianu/PSF",
+                            "download": "https://github.com/alipianu/PSF/archive/v1.0.0.zip"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "pens",
+            "title": "Pens",
+            "description": "CodePen pens give me the opportunity to play around with different front-end technologies, all while having fun designing quirky little animations. Below you’ll find some of my pens along with their source code, feel free to checkout my CodePen profile for more.",
+            "entriesPerRow": 2,
+            "data": [
+                {
+                    "hash": "pVazKa",
+                    "title": "Hamburger Loading Animation (CSS + HTML)"
+                },
+                {
+                    "hash": "GGoNOa",
+                    "title": "Paint Roller Loading Animation"
+                },
+                {
+                    "hash": "XYdpzP",
+                    "title": "Alarm Clock Loading Screen"
+                },
+                {
+                    "hash": "XqXONv",
+                    "title": "iPhone 8"
+                },
+                {
+                    "hash": "MzeJWZ",
+                    "title": "Color-Changing Polyhedrons"
+                },
+                {
+                    "hash": "XyKxNq",
+                    "title": "Coil Generator"
+                }
+            ]
+        }
+    ]
+}
