@@ -47,7 +47,7 @@ class App extends React.Component {
       "pens"
     ];
     for (const section of sections) {
-      const sectionData = result.find(x => x._id === section);
+      const sectionData = result.find(x => x.key === section);
       if (sectionData) {
         data[section] = sectionData;
       }

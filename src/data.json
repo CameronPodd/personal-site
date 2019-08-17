@@ -3,13 +3,13 @@
     "code": 200,
     "data": [
         {
-            "_id": "splash",
+            "key": "splash",
             "name": "Cameron Podd",
             "title": "Full Stack Software Engineer",
             "src": "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1226&q=80"
         },
         {
-            "_id": "about",
+            "key": "about",
             "title": "About",
             "headshot": "https://api.alexlipianu.com/images/headshot.jpg",
             "message": {
@@ -48,7 +48,7 @@
             }
         },
         {
-            "_id": "timeline",
+            "key": "timeline",
             "title": "Timeline",
             "description": "With almost 2 years of work experience at 4 companies spanning several different industries, I have the experience and insight you’ve been seeking that can elevate your product to new heights. Hover the timeline below to browse my past co-ops, internships and design teams throughout my high school and undergraduate education.",
             "data": [
@@ -103,7 +103,7 @@
             ]
         },
         {
-            "_id": "skills",
+            "key": "skills",
             "title": "Skills",
             "description": "Through my past work experiences and side projects, I’ve managed to gained exposure to a wide variety of languages, frameworks and technologies. Toggle the skill bars below to learn more about how I’ve acquired each skill.",
             "entriesPerRow": 4,
@@ -289,7 +289,7 @@
             ]
         },
         {
-            "_id": "experience",
+            "key": "experience",
             "title": "Experience",
             "description": "Flexibility, adaptability and versatility are some of the most important traits that a software developer can possess. That is why I have taken it upon myself to learn as much as I can, both inside and outside the workplace, in several different areas of software development. Toggle the icons below to learn about my experiences in each area.",
             "data": [
@@ -311,7 +311,7 @@
             ]
         },
         {
-            "_id": "projects",
+            "key": "projects",
             "title": "Projects",
             "description": "The next big thing may be right under your nose. Below you’ll find some of my personal projects with GitHub and download links, feel free to try them out yourself.",
             "entriesPerRow": 2,
