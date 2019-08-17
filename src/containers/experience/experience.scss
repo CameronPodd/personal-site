@@ -12,6 +12,9 @@
 }
 @include fade-body-text(transition-expand-light, null, $theme-light, null, $theme-dark);
 
+
+$image-spacing-bottom: 30px;
+
 .grid-experience {
   .head-collapse {
     @extend %non-selectable;
@@ -26,6 +29,10 @@
     h5 {
       margin: 0;
       padding: 1em;
+    }
+
+    h6 {
+      margin: 0;
     }
 
     &.has-body {
@@ -50,5 +57,11 @@
   .body-collapse {
     padding: 20px;
     &.expanded { @include animation(transition-expand-light .5s ease-in-out 0s alternate forwards); }
+  }
+
+  .image {
+    @extend %non-selectable;
+    @include circle(100%);
+    margin-bottom: $image-spacing-bottom;
   }
 }

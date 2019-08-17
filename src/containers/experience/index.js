@@ -4,7 +4,6 @@
 
 import "./experience.scss";
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Section, Collapsible } from "../../components";
 
 /**
@@ -36,8 +35,13 @@ const ExperienceContainer = props => {
                 )
               }
             >
-              <FontAwesomeIcon icon={experience.icon} />
+              <img
+                src={experience.src}
+                alt={experience.label}
+                className="image"
+              />
               {experience.label && <h5>{experience.label}</h5>}
+              {experience.dates && <h6>{experience.dates}</h6>}
             </Collapsible.Col>
           ))}
         </Collapsible.Row>

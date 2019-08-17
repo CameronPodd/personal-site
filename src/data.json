@@ -28,6 +28,41 @@
             }
         },
         {
+            "key": "education",
+            "title": "Education",
+            "description": "I've had the pleasure to work at a few awesome places in my life.  Below are the places I've worked.  Toggle to see some of my responsibilities at each place!",
+            "data": [
+                {
+                    "details": [
+                        "Spearheaded component and library-based redesign of frontend code, reducing code by 75%",
+                        "Redesigned and rebuilt backend, decreasing required calls by 30% and increasing code reuse by 70%",
+                        "Built enterprise full-stack application in 10 weeks, culminating in early product release"
+                    ],
+                    "src": "https://media.licdn.com/dms/image/C560BAQGNYMWVbWSezg/company-logo_400_400/0?e=1574294400&v=beta&t=F2iYyq8c2sUkp3SAU2YBCGg8_qiSLDNg3Yrp1L5rb_I",
+                    "label": "LEFT Travel",
+                    "dates": "May 2019 - Present"
+                },
+                {
+                    "details": [
+                        "Created an import processor integrating CSV file input",
+                        "Developed 500+ lines of production code in C# using Visual Studio"
+                    ],
+                    "src": "https://media.licdn.com/dms/image/C4D0BAQFWBurOB7pj3Q/company-logo_400_400/0?e=1574294400&v=beta&t=MFzhK-QiYf3RTXpbKMaJC74rBDRKXP2wTIvAuRqcj80",
+                    "label": "Nymbl Science",
+                    "dates": "June 2018 - August 2018"
+                },
+                {
+                    "details": [
+                        "Assisted customers in the sale of 50+ bicycles and $2000 of equipment",
+                        "Built 150 bicycles to be sold"
+                    ],
+                    "src": "https://irp-cdn.multiscreensite.com/a4fcd181b544411a880cc91e5e529841/dms3rep/multi/desktop/thecyclist+logo.png",
+                    "label": "The Cyclist Bike Shop",
+                    "dates": "May 2018 - August 2018"
+                }
+            ]
+        },
+        {
             "key": "skills",
             "title": "Skills",
             "description": "Through my brief career in Software Engineering (so far), I've worked with a variety of languages, tools, libraries, and databases.  Take a look below, and toggle to show how I learned each skill.",
@@ -209,22 +244,35 @@
         {
             "key": "experience",
             "title": "Experience",
-            "description": "Flexibility, adaptability and versatility are some of the most important traits that a software developer can possess. That is why I have taken it upon myself to learn as much as I can, both inside and outside the workplace, in several different areas of software development. Toggle the icons below to learn about my experiences in each area.",
+            "description": "I've had the pleasure to work at a few awesome places in my life.  Below are the places I've worked.  Toggle to see some of my responsibilities at each place!",
             "data": [
                 {
-                    "details": ["Looking for a developer with experience in testing or developing testing frameworks and applications? Having spent two summers at InFlight Corporation developing internal testing tools for enterprise systems, testing serves as my backbone and one of my earliest exposures to software development. At InFlight Corporation, I redesigned the UI of and added Google Chrome support to an internal demoing tool, as well as added new features to an internal Fiddler debugging extension. I also developed an automated client-side black-box web application testing framework, and conducted functional testing of HTTP requests, SSO, JSON objects, and web page elements."],
-                    "src": "cogs",
-                    "label": "LEFT Travel"
+                    "details": [
+                        "Spearheaded component and library-based redesign of frontend code, reducing code by 75%",
+                        "Redesigned and rebuilt backend, decreasing required calls by 30% and increasing code reuse by 70%",
+                        "Built enterprise full-stack application in 10 weeks, culminating in early product release"
+                    ],
+                    "src": "https://media.licdn.com/dms/image/C560BAQGNYMWVbWSezg/company-logo_400_400/0?e=1574294400&v=beta&t=F2iYyq8c2sUkp3SAU2YBCGg8_qiSLDNg3Yrp1L5rb_I",
+                    "label": "LEFT Travel",
+                    "dates": "May 2019 - Present"
                 },
                 {
-                    "details": "Need an experienced and enthusiastic web developer on your team? At the end of my freshman year of university, I worked at CareGo Tek Inc. doing full-stack web development and basic database administration for a web application. On the front-end, I added new pages, styled pages with both static and dynamic layouts, incorporated new interactive elements, created components for tables and forms, and improved mobile responsiveness. On the back-end, I optimized database queries, lowered the number of database calls, reduced web page load times, and improved the efficiency of frequently used data transformations and computations. In my spare time, when I’m not busy developing and maintaining this website, I like to practice my front-end web development skills and make contributions to the web development community through CodePen.",
-                    "src": "globe",
-                    "label": "Nymbl Science"
+                    "details": [
+                        "Created an import processor integrating CSV file input",
+                        "Developed 500+ lines of production code in C# using Visual Studio"
+                    ],
+                    "src": "https://media.licdn.com/dms/image/C4D0BAQFWBurOB7pj3Q/company-logo_400_400/0?e=1574294400&v=beta&t=MFzhK-QiYf3RTXpbKMaJC74rBDRKXP2wTIvAuRqcj80",
+                    "label": "Nymbl Science",
+                    "dates": "June 2018 - August 2018"
                 },
                 {
-                    "details": "Graphics and games have always been two of my greatest interests. In my junior year of high school, my interest in games led me to create a two-player street fighter videogame called Paint Street Fighter. The following year, my interest in low-level graphics drew me to DirectX 12 - reading and working through Frank D. Luna’s 3D Programming with DirectX 12. Throughout my freshman year of university, I worked on a student design team called WATonomous at the University of Waterloo, where I focused on vehicle camera simulation. During this period, I also developed a steganography program, Imgrypt, that encrypts and decrypts messages from image pixel data.",
-                    "src": "gamepad",
-                    "label": "The Cyclist Bike Shop"
+                    "details": [
+                        "Assisted customers in the sale of 50+ bicycles and $2000 of equipment",
+                        "Built 150 bicycles to be sold"
+                    ],
+                    "src": "https://irp-cdn.multiscreensite.com/a4fcd181b544411a880cc91e5e529841/dms3rep/multi/desktop/thecyclist+logo.png",
+                    "label": "The Cyclist Bike Shop",
+                    "dates": "May 2018 - August 2018"
                 }
             ]
         },
@@ -342,6 +390,41 @@
                     }
                 ]
             }
+        },
+        {
+            "key": "involvement",
+            "title": "Leadership & Involvement",
+            "description": "I've had the pleasure to work at a few awesome places in my life.  Below are the places I've worked.  Toggle to see some of my responsibilities at each place!",
+            "data": [
+                {
+                    "details": [
+                        "Spearheaded component and library-based redesign of frontend code, reducing code by 75%",
+                        "Redesigned and rebuilt backend, decreasing required calls by 30% and increasing code reuse by 70%",
+                        "Built enterprise full-stack application in 10 weeks, culminating in early product release"
+                    ],
+                    "src": "https://media.licdn.com/dms/image/C560BAQGNYMWVbWSezg/company-logo_400_400/0?e=1574294400&v=beta&t=F2iYyq8c2sUkp3SAU2YBCGg8_qiSLDNg3Yrp1L5rb_I",
+                    "label": "LEFT Travel",
+                    "dates": "May 2019 - Present"
+                },
+                {
+                    "details": [
+                        "Created an import processor integrating CSV file input",
+                        "Developed 500+ lines of production code in C# using Visual Studio"
+                    ],
+                    "src": "https://media.licdn.com/dms/image/C4D0BAQFWBurOB7pj3Q/company-logo_400_400/0?e=1574294400&v=beta&t=MFzhK-QiYf3RTXpbKMaJC74rBDRKXP2wTIvAuRqcj80",
+                    "label": "Nymbl Science",
+                    "dates": "June 2018 - August 2018"
+                },
+                {
+                    "details": [
+                        "Assisted customers in the sale of 50+ bicycles and $2000 of equipment",
+                        "Built 150 bicycles to be sold"
+                    ],
+                    "src": "https://irp-cdn.multiscreensite.com/a4fcd181b544411a880cc91e5e529841/dms3rep/multi/desktop/thecyclist+logo.png",
+                    "label": "The Cyclist Bike Shop",
+                    "dates": "May 2018 - August 2018"
+                }
+            ]
         }
     ]
 }

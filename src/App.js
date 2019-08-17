@@ -39,10 +39,11 @@ class App extends React.Component {
     const sections = [
       "splash",
       "about",
+      "education",
       "skills",
       "experience",
       "projects",
-      "pens"
+      "involvement"
     ];
     for (const section of sections) {
       const sectionData = result.find(x => x.key === section);
@@ -63,9 +64,11 @@ class App extends React.Component {
       <>
         <SplashContainer {...data.splash} />
         <AboutContainer {...data.about} />
+        <ExperienceContainer {...data.education} />
         <SkillsContainer {...data.skills} />
         <ExperienceContainer {...data.experience} />
         <ProjectsContainer {...data.projects} />
+        <ExperienceContainer {...data.involvement} />
         <Footer />
       </>
     ) : null;
