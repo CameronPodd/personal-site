@@ -18,19 +18,10 @@ RUN npm run build
 
 # Stage 2: Run the Production App
 
-FROM node:alpine
+FROM nginx:1.12-alpine
 
-WORKDIR /usr/src/app
+COPY --from=build-deps /usr/src/app/build /usr/share/nginx/html
 
-# Run the image as a non-root user
-# RUN adduser -D frontend
-# USER frontend
+EXPOSE 80
 
-
-RUN npm install -g serve
-
-COPY --from=build-deps /usr/src/app/build /build
-
-EXPOSE 5000
-
-CMD ["serve", "-s", "build"]
+CMD ["nginx", "-g", "daemon off;"]

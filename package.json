@@ -43,7 +43,7 @@
     "build-production-files": "react-scripts build",
     "run-local-dev-environment": "react-scripts start",
     "build-docker-container": "docker build -t cameronpoddpersonalsite .",
-    "run-docker-locally": "docker run -p 80:5000 --env-file=.env cameronpoddpersonalsite",
+    "run-docker-locally": "docker run -p 80:80 --env-file=.env cameronpoddpersonalsite",
     "push-to-heroku": "heroku container:push -a cameronpoddpersonalsite web",
     "release-on-heroku": "heroku container:release -a cameronpoddpersonalsite web"
   },
