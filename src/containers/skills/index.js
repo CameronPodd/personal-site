@@ -5,7 +5,7 @@
 import "./skills.scss";
 import React from "react";
 import { Section, Collapsible } from "../../components";
-import SkillBar from "./skill-bar";
+import { SkillBar } from "../../components";
 
 /**
  * Renders skills section

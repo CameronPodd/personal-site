@@ -4,8 +4,7 @@
 
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import { Section } from "../../components";
-import Project from "./project";
+import { Section, Project } from "../components";
 
 /**
  * Renders projects section

@@ -13,6 +13,9 @@ import IconButton from "./icon-button";
 import Tag from "./tag";
 import Loader from "./loader";
 import LoadingAnimation from "./polyhedrons";
+import Project from "./project";
+import SkillBar from "./skill-bar";
+import Splash from "./splash";
 
 // Component module
 export {
@@ -26,5 +29,8 @@ export {
   IconButton,
   Tag,
   Loader,
-  LoadingAnimation
+  LoadingAnimation,
+  Project,
+  SkillBar,
+  Splash
 };

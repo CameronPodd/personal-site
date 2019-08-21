@@ -2,7 +2,7 @@
  * Code Adapted from Alexander Lipianu.
  */
 
-import "./splashComponent.scss";
+import "./splash.scss";
 import React from "react";
 
 /**

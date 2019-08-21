@@ -4,7 +4,7 @@
 
 import "./splash.scss";
 import React from "react";
-import Splash from "./splashComponent";
+import { Splash } from "../../components";
 
 /**
  * Renders splash section
