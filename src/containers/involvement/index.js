@@ -7,28 +7,28 @@ import React from "react";
 import { Section, Collapsible } from "../../components";
 
 /**
- * Renders experience section
+ * Renders involvement section
  * @param {*} props - the component's properties
  *
- * usage: <ExperienceContainer title="V" description="W" data={[{details: 'X', icon: 'Y', label?: 'Z'}, ...]} />
+ * usage: <InvolvementContainer title="V" description="W" data={[{details: 'X', icon: 'Y', label?: 'Z'}, ...]} />
  */
 const InvolvementContainer = props => {
   const colWidth = Math.floor(12 / props.data.length);
   return (
     <Section theme="light" title={props.title} description={props.description}>
-      <Collapsible.Grid className="grid-experience">
+      <Collapsible.Grid className="grid-involvement">
         <Collapsible.Row>
-          {props.data.map((experience, i) => (
+          {props.data.map((involvement, i) => (
             <Collapsible.Col
               key={i}
               md={colWidth}
               body={
-                !Array.isArray(experience.details) ||
-                !experience.details.length ? (
-                  experience.details
+                !Array.isArray(involvement.details) ||
+                !involvement.details.length ? (
+                  involvement.details
                 ) : (
                   <ul>
-                    {experience.details.map((detail, i) => (
+                    {involvement.details.map((detail, i) => (
                       <li key={i}>{detail}</li>
                     ))}
                   </ul>
@@ -36,12 +36,13 @@ const InvolvementContainer = props => {
               }
             >
               <img
-                src={experience.src}
-                alt={experience.label}
+                src={involvement.src}
+                alt={involvement.label}
                 className="image"
               />
-              {experience.label && <h5>{experience.label}</h5>}
-              {experience.dates && <h6>{experience.dates}</h6>}
+              {involvement.label && <h5>{involvement.label}</h5>}
+              {involvement.position && <h6>{involvement.position}</h6>}
+              {involvement.dates && <h6>{involvement.dates}</h6>}
             </Collapsible.Col>
           ))}
         </Collapsible.Row>

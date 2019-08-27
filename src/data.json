@@ -233,7 +233,8 @@
                     ],
                     "src": "https://media.licdn.com/dms/image/C560BAQGNYMWVbWSezg/company-logo_400_400/0?e=1574294400&v=beta&t=F2iYyq8c2sUkp3SAU2YBCGg8_qiSLDNg3Yrp1L5rb_I",
                     "label": "LEFT Travel",
-                    "dates": "May 2019 - August 2019"
+                    "dates": "May 2019 - August 2019",
+                    "position": "Full-Stack Software Engineering Intern"
                 },
                 {
                     "details": [
@@ -242,7 +243,8 @@
                     ],
                     "src": "https://media.licdn.com/dms/image/C4D0BAQFWBurOB7pj3Q/company-logo_400_400/0?e=1574294400&v=beta&t=MFzhK-QiYf3RTXpbKMaJC74rBDRKXP2wTIvAuRqcj80",
                     "label": "Nymbl Science",
-                    "dates": "June 2018 - August 2018"
+                    "dates": "June 2018 - August 2018",
+                    "position": "Computer Science Intern"
                 },
                 {
                     "details": [
@@ -251,7 +253,8 @@
                     ],
                     "src": "https://irp-cdn.multiscreensite.com/a4fcd181b544411a880cc91e5e529841/dms3rep/multi/desktop/thecyclist+logo.png",
                     "label": "The Cyclist Bike Shop",
-                    "dates": "May 2018 - August 2018"
+                    "dates": "May 2018 - August 2018",
+                    "position": "Summer Associate"
                 }
             ]
         },
@@ -383,7 +386,8 @@
                     ],
                     "src": "https://lh3.googleusercontent.com/IUbkyBl6elt90eDv6TY7c5iaq-TVI6E4zQ7a3GQbBEYY2UiBpEEELs3cAHuJHOl6jXjJhj-NbznKftST20yc9uQER9a0fi2HMOfPw4lekCcjVPpZxnrdvvlAa8BvMG0tyAZq7FVwuw5BAezSIieI7gAAmGPyH0zVy3CW6aqcT6zCAAapneRZWxQjv67wqWaxZfHToN9CsX56Det9sKjF2c_TXyy-XpkK9ZgZ5Sm6RllnBder1Ql660fLIXRsNXSpszjnvbe5b7F5h41Qdk4PQlZb93-87OKMQQ7UQCJFFUahlrsB-u09qkhR15MlaSQ3Jc4iitOjEn98QwOUA6QoQS0VCoQb7TRkZx9_KjQ39xL7Ijbl2uzeS7bhY5WTLr7zL8_evw06dByJFTi2uwqi8Xy6AOkwQxT6TZ6VxYlGcyztlUPoYZbK330RKvrjOXjLKF94O4m9pyhgDZFnWcIQULEuSumdlp2cuAh0aNAUwcbDS2ZINzU-7ED0z9PwOPvt6qfT4KM5AyGG1o6ExXduY0fzFpe746-xvJo5R2MWJZerHA7geAinxFrtIZ9oCQAUqk3d4sfqUr9Gqbg5tGRPrv50yzr2uf3IIliloQB5770vqLCam6hXOWOrYBgG148FNP32bwQ0qgOE48Yj3BtE6c-WoxmJxn4=w500-h518-no",
                     "label": "USC Ice Hockey",
-                    "dates": "May 2019 - Present"
+                    "dates": "May 2019 - Present",
+                    "position": "President"
                 },
                 {
                     "details": [
@@ -392,7 +396,8 @@
                     ],
                     "src": "http://usclavalab.org/LavaLab_Circle_Orange.png",
                     "label": "USC LavaLab",
-                    "dates": "September 2018 - Present"
+                    "dates": "September 2018 - Present",
+                    "position": "Developer"
                 }
             ]
         }

@@ -41,6 +41,7 @@ const ExperienceContainer = props => {
                 className="image"
               />
               {experience.label && <h5>{experience.label}</h5>}
+              {experience.position && <h6>{experience.position}</h6>}
               {experience.dates && <h6>{experience.dates}</h6>}
             </Collapsible.Col>
           ))}
