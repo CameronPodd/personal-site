@@ -6,7 +6,7 @@
             "key": "splash",
             "name": "Cameron Podd",
             "title": "Full Stack Software Engineer",
-            "src": "https://images.unsplash.com/photo-1519999482648-25049ddd37b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1226&q=80"
+            "src": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2034&q=80"
         },
         {
             "key": "about",
@@ -233,7 +233,7 @@
                     ],
                     "src": "https://media.licdn.com/dms/image/C560BAQGNYMWVbWSezg/company-logo_400_400/0?e=1574294400&v=beta&t=F2iYyq8c2sUkp3SAU2YBCGg8_qiSLDNg3Yrp1L5rb_I",
                     "label": "LEFT Travel",
-                    "dates": "May 2019 - Present"
+                    "dates": "May 2019 - August 2019"
                 },
                 {
                     "details": [
@@ -332,7 +332,7 @@
                     },
                     {
                         "title": "SD Hacks 2018: Motopanion",
-                        "image": "https://lh3.googleusercontent.com/o2ijy7BbO7br3T-B1iYRoHOjxPJQf5L5gxGUHf4ljfu0xWOyhPO6vPL9LO0Vxf89JlLuhVCIqB2LLWJpEygBLYi5daou6y6NoEwsNPEVcTXPttXBigaECHklecvawf6BlJ8cKfygPaiTYUFrRmG5hvPIvQ1UTxulx8GnLFFjj1ppuUgZVxEHeBxpHjTfZx0dLqlkXOkGq3z3Kgs3GlbZw-8ezchwtuVUTMCV_lAqtwSEKXKpgX9ZzJ3p-YujF2DhzUm4YhXR0Gd7kfJNGYWLs-tfWJUPkMALnPOF3WqXg4nrSFQynEpzI1_s8iUadmx7sVnS5uW0afFKydzwuvyDoKJZgK8cCkwV26iFNMGVdgXZDPQqSJSOD3jEd9DP7dE3Lgr9qN2EM7ZjnZRdkCYpaGU9-FG9eutLBnnVb4TuEYCSetsCqo_RYvdovEwR9WQt_DFgOAqVo6QtaIZekxPK8HNyiNpmIquOowwY4x0N_Ae2HPmtiO63pxeH30ey8QAUDgjxZWTkctqIhUd3fF-EGZe9ACQZ1MTutg3bIOpuztFSAzcudsI_g9R5OHzWnTwlxDs-bOa4QR4IG2yWyjsm34ec8c4P17KM2avjm5QpBIIYX3WRE00tnK2MPgvsC-WBfzVFRQmSDhrjxfTDtq_BG66BwXjlk-k=w1440-h634-no",
+                        "image": "https://images.unsplash.com/photo-1473889803946-6a3923603697?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80",
                         "description": "Web based full-stack application built in 36 hours by a team of four providing immediate assistance for getting a quote from any car service in the area.  Responsible for Keras neural network predicting car damage.",
                         "tools": {
                             "languages": [

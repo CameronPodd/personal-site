@@ -11,7 +11,8 @@ import {
   EducationContainer,
   SkillsContainer,
   ExperienceContainer,
-  ProjectsContainer
+  ProjectsContainer,
+  InvolvementContainer
 } from "./containers";
 import data from "./data.json";
 
@@ -69,7 +70,7 @@ class App extends React.Component {
         <SkillsContainer {...data.skills} />
         <ExperienceContainer {...data.experience} />
         <ProjectsContainer {...data.projects} />
-        <ExperienceContainer {...data.involvement} />
+        <InvolvementContainer {...data.involvement} />
         <Footer />
       </>
     ) : null;
