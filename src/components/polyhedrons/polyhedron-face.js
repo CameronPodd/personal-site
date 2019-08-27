@@ -1,6 +1,10 @@
-import './polyhedron-face.scss';
-import React from 'react';
-import classnames from 'classnames';
+/**
+ * Code Adapted from Alexander Lipianu.
+ */
+
+import "./polyhedron-face.scss";
+import React from "react";
+import classnames from "classnames";
 
 /**
  * Polyhedron face component
@@ -12,7 +16,9 @@ class PolyhedronFace extends React.Component {
    * Subscribes face to animation change handler
    */
   componentDidMount() {
-    this.subscription = this.props.animationChange.subscribe({ next: (id) => this.props.parentId === id && this.updateColor() });
+    this.subscription = this.props.animationChange.subscribe({
+      next: id => this.props.parentId === id && this.updateColor()
+    });
   }
 
   /**
@@ -30,7 +36,10 @@ class PolyhedronFace extends React.Component {
       const x = () => Math.floor(Math.random() * 256);
       return `rgba(${x()}, ${x()}, ${x()}, 0.7)`;
     };
-    const color = this.props.type === 'rect' ? { backgroundColor: rgba() } : { borderColor: `transparent transparent ${rgba()} transparent` };
+    const color =
+      this.props.type === "rect"
+        ? { backgroundColor: rgba() }
+        : { borderColor: `transparent transparent ${rgba()} transparent` };
     this.setState({ color });
   }
 
@@ -39,7 +48,10 @@ class PolyhedronFace extends React.Component {
    */
   render() {
     return (
-      <div className={classnames('shape-face', this.props.type)} style={this.state.color}></div>
+      <div
+        className={classnames("shape-face", this.props.type)}
+        style={this.state.color}
+      />
     );
   }
 }

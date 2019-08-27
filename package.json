@@ -2,7 +2,6 @@
   "name": "react-site",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://alexlipianu.com/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
     "@fortawesome/free-brands-svg-icons": "^5.8.1",
@@ -23,12 +22,30 @@
     "rxjs": "^6.5.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "start": "npm run run-local-dev-environment",
+    "build": "npm run build-production-files",
+
+    "pregh-pages:deploy": "npm run build",
+    "ghpages:deploy": "npm run release-to-gh-pages",
+
+    "docker:build": "npm run build-docker-container",
+
+    "predocker:start": "npm run docker:build",
+    "docker:start": "npm run run-docker-locally",
+
+    "predocker:push": "npm run docker:build",
+    "docker:push": "npm run push-to-heroku",
+
+    "predocker:release": "npm run docker:push",
+    "docker:release": "npm run release-on-heroku",
+
+    "release-to-gh-pages": "gh-pages -b master -d build",
+    "build-production-files": "react-scripts build",
+    "run-local-dev-environment": "react-scripts start",
+    "build-docker-container": "docker build -t cameronpoddpersonalsite .",
+    "run-docker-locally": "docker run -p 80:80 --env-file=.env cameronpoddpersonalsite",
+    "push-to-heroku": "heroku container:push -a cameronpoddpersonalsite web",
+    "release-on-heroku": "heroku container:release -a cameronpoddpersonalsite web"
   },
   "eslintConfig": {
     "extends": "react-app"

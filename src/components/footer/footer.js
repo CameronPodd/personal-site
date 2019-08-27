@@ -1,28 +1,47 @@
-import './footer.scss';
-import React from 'react';
-import { IconButton } from '../components';
+/**
+ * Code Adapted from Alexander Lipianu.
+ */
+
+import "./footer.scss";
+import React from "react";
+import { IconButton } from "..";
 
 /**
  * Renders footer component
- * 
+ *
  * usage: <Footer />
  */
-const Footer = () => {
-  const year = (new Date()).getFullYear();
-  return (
-    <footer>
-      <div>
-        <IconButton className="footer-button" ariaLabel="Email" href="mailto:alexlipianu@live.ca?subject=Website%20Redirect" icon="envelope" />
-        <IconButton className="footer-button" ariaLabel="LinkedIn" href="https://ca.linkedin.com/in/alipianu" prefix="fab" icon="linkedin" />
-        <IconButton className="footer-button" ariaLabel="GitHub" href="https://github.com/alipianu" prefix="fab" icon="github" />
-        <IconButton className="footer-button" ariaLabel="CodePen" href="https://codepen.io/alipianu/" prefix="fab" icon="codepen" />
-      </div>
-      <div>
-        <p>@ {year} Alexander Lipianu</p>
-        <p>All rights reserved</p>
-      </div>
-    </footer>
-  );
-};
+const Footer = () => (
+  <footer>
+    <div>
+      <IconButton
+        className="footer-button"
+        ariaLabel="Email"
+        href="mailto:podd@usc.edu"
+        icon="envelope"
+      />
+      <IconButton
+        className="footer-button"
+        ariaLabel="LinkedIn"
+        href="https://linkedin.com/in/cameronpodd"
+        prefix="fab"
+        icon="linkedin"
+      />
+      <IconButton
+        className="footer-button"
+        ariaLabel="GitHub"
+        href="https://github.com/CameronPodd"
+        prefix="fab"
+        icon="github"
+      />
+    </div>
+    <div>
+      <p>
+        Website code adapted from Alexander Lipianu. See the original website{" "}
+        <a href="https://alexlipianu.com/">here</a>.
+      </p>
+    </div>
+  </footer>
+);
 
 export default Footer;

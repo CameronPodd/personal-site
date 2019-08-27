@@ -1,0 +1,405 @@
+{
+    "name": "OK",
+    "code": 200,
+    "data": [
+        {
+            "key": "splash",
+            "name": "Cameron Podd",
+            "title": "Full Stack Software Engineer",
+            "src": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2034&q=80"
+        },
+        {
+            "key": "about",
+            "title": "About",
+            "headshot": "https://lh3.googleusercontent.com/n_EekpJu8r1K09mOG0uyfQb14gUbGEvL_uqjKt1xl44ikGylZQFHhpPEge5rdARRTMH0tPTVxDgzlwySxsu1saFOn0P4BENRKV0i-Eum04v2llVKW2CJ7ITZx79VUOEiARFUCKyKS7UJhK0f_2y8pQZE9Ay2RTxr64GWJ_aZ2F5NjhKiwgT-KPwKUAAJNnyf6RX20gXG_XCBTXRjObnz059kyIlUtyBNPRSxCVhn_U5fB3NWRTAj8EfORq9-OD2VT732Vl0IPjLSX8lN2cAo2GgHJyqBLX7DYIDUc_JxaiVgfnZzNg2benup4sPISDTWa7Jm1veXf1tlm-Lmzs9lPFDW00h-3FYvGzMQtsbsFgztH1X03nihFARt_at6dXPZgU6WeJrmSTGy0M1AwiUpisr1j2jyDd_pe6xsG9os7_7iUtOKBzKGVm9Q_gZYC9uPO3205Ezyb4dlG_Cl1kR0nd_c-JEjb3UwtW4kWkWc6Fl1tuyfZzEVbQViP-V9kTV4f4s5RMGnElrOhoz5a_qooSWucsvOzA7EumMO6KQUc9c98PdY7W1Ku009Ya2SxklmMJGBNt8XZTzvJ7qDkgtLY_J3M9vLMAufVGJFy-I6IhoZDFueg2x1s6gRTQoz6vNXQVD8ibrYZq_4GYYNHhtXToZniCL9h7s=w732-h915-no",
+            "message": {
+                "text": "Hi. My name is Cameron!",
+                "width": 355
+            },
+            "description": {
+                "_id": "description",
+                "text": "My name is Cameron Podd and I am a Full-Stack Software Engineer in Los Angeles, CA.\nI am an incoming junior pursuing a B.S. in Computer Science / Business Administration and a M.S. in Computer Science at the {{0}}.",
+                "links": [
+                    {
+                        "label": "University of Southern California",
+                        "href": "https://www.cs.usc.edu/"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "education",
+            "title": "Education",
+            "image": "https://lh3.googleusercontent.com/RjAbwHkTx5Vj3UlSPNPUGfLIRNAVVwLMxdh2XDeUOYpd0leUdmYqqpwjP__iA6DRUqcB49YUtQBNYJLkMAaJ-MWjW18coMnbAD3zxzSgQmYYaL31lhj90auFBeqtyWmzVutSx8hTdl7A89OQVDdP_h5nhChKo5kX4ch_nw5liJNEvsHYy-rPk-rHBYFT557lzgfEcngNoaTrdmL0wIZRawuIsKgR07j2ZwTmltZzqZu-8CvoMu_GU-kHmyxMxFtwB5rqe7sVwxScw8InJKOf-qCe6j0k8oKvqE3R4rGeTRr4o1Gb2o94rhdvQx9bZy7SmJU_9XXFUO8K3wAbCl1n0STSw_-zDmNXW9qN1NUdFeAyapCxjpwEm9TuNS4ZRiKvnX-MDZqX2ywAeFXzNYvBnTdTyPsS3NdRUVCU5DHxVe7_GbKjZWiKwExHaw2cLxSv09cDcMIx0i9yE2VKZ0akGl-Sm7W-ITppnxmoqrg9onpM9a4WBjN-B3mskTniDyzrlnj9gvBzeskf4PcFRUuK4W7DHcvXwFWwD8X_VDFWT1LBDdXBCIn29d8HpepdgbzeqArC9VkxEWH9prUUt7CP-G9zztgTSLbfm4ixuOEMzVhV8ZqHcZB2nGFbSlJ6JArBgeNd8hJOUsvY_0OVuCKh40tKVf5Vrr8=w1000-h1028-no", 
+            "text": {
+                "text": "My name is Cameron Podd and I am a Full-Stack Software Engineer in Los Angeles, CA.\nI am an incoming junior pursuing a B.S. in Computer Science / Business Administration and a M.S. in Computer Science at the {{0}}.",
+                "links": [
+                    {
+                        "label": "University of Southern California",
+                        "href": "https://www.cs.usc.edu/"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "skills",
+            "title": "Skills",
+            "description": "Through my brief career in Software Engineering (so far), I've worked with a variety of languages, tools, libraries, and databases.  Take a look below, and toggle to show how I learned each skill.",
+            "entriesPerRow": 4,
+            "groups": [
+                {
+                    "name": "Languages",
+                    "data": [
+                        {
+                            "label": "JavaScript",
+                            "level": "expert",
+                            "details": [
+                                "Primary language for my internship at LEFT Travel",
+                                "Used to create The Dining App, Involved, and USC Bingo",
+                                "Used for 1 in-progress personal project"
+                            ]
+                        },
+                        {
+                            "label": "Python",
+                            "level": "advanced",
+                            "details": [
+                                "Used to create the neural network for Motopanion",
+                                "Used for scripting in various personal and professional projects"
+                            ]
+                        },
+                        {
+                            "label": "TypeScript",
+                            "level": "advanced",
+                            "details": [
+                                "Used for 1 in-progress personal project"
+                            ]
+                        },
+                        {
+                            "label": "Java",
+                            "level": "intermediate",
+                            "details": [
+                                "Used for the v1 of The Dining App",
+                                "Primary language for CSCI-201 (Software Development) at USC"
+                            ]
+                        },
+                        {
+                            "label": "C++",
+                            "level": "intermediate",
+                            "details": [
+                                "Primary language for CSCI-103 & CSCI-104 (Data Structures & Object Oriented Programming) at USC",
+                                "My first CS Language"
+                            ]
+                        },
+                        {
+                            "label": "C#",
+                            "level": "intermediate",
+                            "details": [
+                                "Primary language for my internship at Nymbl Science"
+                            ]
+                        },
+                        {
+                            "label": "C",
+                            "level": "novice",
+                            "details": [
+                                "Primary language for CSCI-356 (Computer Systems) at USC"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tools",
+                    "data": [
+                        {
+                            "label": "Heroku",
+                            "level": "intermediate",
+                            "details": [
+                                "The Dining App v2 Deployed on Heroku",
+                                "Heroku used in my internship at LEFT Travel"
+                            ]
+                        },
+                        {
+                            "label": "Google Cloud Platform",
+                            "level": "intermediate",
+                            "details": [
+                                "The Dining App v1 Deployed on GCP"
+                            ]
+                        },
+                        {
+                            "label": "AWS",
+                            "level": "novice",
+                            "details": [
+                                "AWS S3 used for file storage for LEFT Travel"
+                            ]
+                        },
+                        {
+                            "label": "Docker",
+                            "level": "novice",
+                            "details": [
+                                "The Dining App v2 containerized for predictable deployments"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Libraries",
+                    "data": [
+                        {
+                            "label": "Node.js",
+                            "level": "expert",
+                            "details": [
+                                "Primary backend language for LEFT Travel and The Dining App",
+                                "Used for 1 in-progress personal project"
+                            ]
+                        },
+                        {
+                            "label": "Express.js",
+                            "level": "expert",
+                            "details": [
+                                "API framework for LEFT Travel and The Dining App",
+                                "Used for 1 in-progress personal project"
+                            ]
+                        },
+                        {
+                            "label": "React.js",
+                            "level": "advanced",
+                            "details": [
+                                "Primary frontend framework for LEFT Travel and The Dining App",
+                                "Used for 1 in-progress personal project"
+                            ]
+                        },
+                        {
+                            "label": "Redux",
+                            "level": "advanced",
+                            "details": [
+                                "Used at LEFT Travel for global data availability"
+                            ]
+                        },
+                        {
+                            "label": "Flask",
+                            "level": "intermediate",
+                            "details": [
+                                "API framework used for Motopanion"
+                            ]
+                        },
+                        {
+                            "label": "Spring Boot",
+                            "level": "novice",
+                            "details": [
+                                "API framework used for The Dining App v1"
+                            ]
+                        },
+                        {
+                            "label": "Keras",
+                            "level": "novice",
+                            "details": [
+                                "Machine Learning framework used for Motopanion"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Databases",
+                    "data": [
+                        {
+                            "label": "MongoDB",
+                            "level": "advanced",
+                            "details": [
+                                "Used during my internship at LEFT Travel",
+                                "Database for The Dining App v2"
+                            ]
+                        },
+                        {
+                            "label": "MySQL",
+                            "level": "intermediate",
+                            "details": [
+                                "Database for The Dining App v1",
+                                "Primary database for CSCI-201 (Software Development) at USC"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "experience",
+            "title": "Experience",
+            "description": "I've had the pleasure to work at a few awesome places in my life.  Below are the places I've worked.  Toggle to see some of my responsibilities at each place!",
+            "data": [
+                {
+                    "details": [
+                        "Spearheaded component and library-based redesign of frontend code, reducing code by 75%",
+                        "Redesigned and rebuilt backend, decreasing required calls by 30% and increasing code reuse by 70%",
+                        "Built enterprise full-stack application in 10 weeks, culminating in early product release"
+                    ],
+                    "src": "https://media.licdn.com/dms/image/C560BAQGNYMWVbWSezg/company-logo_400_400/0?e=1574294400&v=beta&t=F2iYyq8c2sUkp3SAU2YBCGg8_qiSLDNg3Yrp1L5rb_I",
+                    "label": "LEFT Travel",
+                    "dates": "May 2019 - August 2019",
+                    "position": "Full-Stack Software Engineering Intern"
+                },
+                {
+                    "details": [
+                        "Created an import processor integrating CSV file input",
+                        "Developed 500+ lines of production code in C# using Visual Studio"
+                    ],
+                    "src": "https://media.licdn.com/dms/image/C4D0BAQFWBurOB7pj3Q/company-logo_400_400/0?e=1574294400&v=beta&t=MFzhK-QiYf3RTXpbKMaJC74rBDRKXP2wTIvAuRqcj80",
+                    "label": "Nymbl Science",
+                    "dates": "June 2018 - August 2018",
+                    "position": "Computer Science Intern"
+                },
+                {
+                    "details": [
+                        "Assisted customers in the sale of 50+ bicycles and $2000 of equipment",
+                        "Built 150 bicycles to be sold"
+                    ],
+                    "src": "https://irp-cdn.multiscreensite.com/a4fcd181b544411a880cc91e5e529841/dms3rep/multi/desktop/thecyclist+logo.png",
+                    "label": "The Cyclist Bike Shop",
+                    "dates": "May 2018 - August 2018",
+                    "position": "Summer Associate"
+                }
+            ]
+        },
+        {
+            "key": "projects",
+            "title": "Projects",
+            "description": "Below are samples of my personal work spanning the last two years.  Feel free to browse the code or try them out for yourself.",
+            "entriesPerRow": 2,
+            "data": {
+                "tagMap": {
+                    "languages": {
+                        "color": "#03A9F4",
+                        "accent": "#015a83"
+                    },
+                    "tools": {
+                        "color": "#4CAF50",
+                        "accent": "#285c29"
+                    },
+                    "libraries": {
+                        "color": "#FF9800",
+                        "accent": "#814e00"
+                    },
+                    "databases": {
+                        "color": "#9C27B0",
+                        "accent": "#6f1c7d"
+                    }
+                },
+                "projects": [
+                    {
+                        "title": "The Dining App",
+                        "image": "https://lh3.googleusercontent.com/8yexQlo_3Bsn2tfVr_8M_4dVQFe8unJg-ye2iTK63xiniZaLVURAuNgekwMw8nebq9TZYNIi9daC5OZZAUut65q-TBb8KkRkYFg5DSvahXYAczBibZizQGlw2wMAlykmskKX3UirCUwj_tDPAka8FF1brl36Jrm0rFIw4x4lHQ_ZjkroUguiq5vrdiWPYBQ8nAUZ2nmcWjFaXsJLNQUrYOEE1B4H0AgzHYkzfCnRIBnjWJQgZ6fB8YcSfvpOoQC5Kpe5MgEGjZmlY2JoRB3SYB-8TaRuTggtReq1hYv0DEscZ0bDta71A2t3BTMZ-_YxvofrIDzBE9tgQg2hUeK9NCq4sTkslFJ98O-HLapLQPe2yrSIr7H7XmQQ8B9JoufVQOgWblBpDiGZHuPmWd8OiBXlQvLZg9ubrzQwH8SUEoshz4eWZSsbuexLqFYxe27x408VET06Xvc0sKr5ReLzx47_nB4IczxujxabpI6w7hi1uzHPJwKs5k_r0rQuYOYSLeahFWbNpujoStqEmRJcNJqoxK3DgYnTRn9uyQSj0D-ZXQcbBkXRbZeaR7rqUmDT5_oL1REF_96Q7FMY027z6vur96Hm9wd__zFLoRSYLeHHAlfgRdDDrnkj_8geMMJcUhqouB_X_DjGot8Mfo04lSs2b0_N7Go=w1125-h529-no",
+                        "description": "React Native Application that gives students access to important information about their dining halls. Responsible for the cloud-native backend microservices.",
+                        "tools": {
+                            "languages": [
+                                "JavaScript"
+                            ],
+                            "tools": [
+                                "Docker",
+                                "Heroku"
+                            ],
+                            "libraries": [
+                                "Mongoose",
+                                "Express",
+                                "Node.js"
+                            ],
+                            "databases": [
+                                "MongoDB",
+                                "MySQL"
+                            ]
+                        },
+                        "links": {
+                            "github": "https://github.com/CameronPodd/tdhbackend"
+                        }
+                    },
+                    {
+                        "title": "USC Involved",
+                        "image": "https://lh3.googleusercontent.com/Tr3Dp4EfhFtraamBA5Dn58f-8IRQSPtwN0MTL0Eah39mB1lqQC5c39cuyNpk6urm5RI_3dLhfCWoUK5hG1cbE6ccp7BJjdULcUmEOv6Lm9aVOojKuNfRM616iEcjqPtYgm4CR-BohcMpVMEJ8OdjFZBgTz3K-qdMzAULuScNTuFk9brt8aqVYFFKQ2pfECPdiCisw58voMeZaVrr1_fFMEthGFAC3p1IduJLeE-3tKd0eEkfwiI6lI7PCTRy5FSHnJF_qJhNO6xXNrXIeMZWl7kHOnlOuHY9n0Fkb17DR1TK_4TfU1EW3Ji1gBXgv9c9EkCNBLdCLKsF1VeAoWrHYjo4qFaslspWt8l_-1fLLk3Gxb46yUpvAuxSLcuyIBdzwLPIL9ZKdkst2z4NinjZVc-j7lSI05i9sFUajxlvlnCngo6Q8p4WooGftlvRQ32jRT7scP693HAYjWiV24kR9MqUhcwyON5TuBV3x2mZrg9Kt_tGvpy4SBDDByLOBanASRC-LB95fA4Yzv1fyIUQz8Lc5PujDSIbnj7zrXYmpvEHWn9hj9V196U1itGsPOXfhRYUzmHlgxb_uQG3MePhyBid9hShuWXpTTpteKgS_qe6HaqDWIOe2Qkw6OhRudraS5lwMDFmM-eEex2x_lkZaoKBB2PVdCU=w1918-h913-no",
+                        "description": "Web application facilitating student involvement with on-campus organizations.  Responsible for dynamic searching and integration with Firebase's NoSQL database for real-time information.",
+                        "tools": {
+                            "languages": [
+                                "JavaScript",
+                                "HTML",
+                                "CSS"
+                            ],
+                            "tools": [
+                                "Google Cloud Platform"
+                            ],
+                            "libraries": [
+                                "JQuery"
+                            ],
+                            "databases": [
+                                "Firebase"
+                            ]
+                        },
+                        "links": {
+                            "github": "https://github.com/USCInvolved/uscinvolved.com"
+                        }
+                    },
+                    {
+                        "title": "SD Hacks 2018: Motopanion",
+                        "image": "https://images.unsplash.com/photo-1473889803946-6a3923603697?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80",
+                        "description": "Web based full-stack application built in 36 hours by a team of four providing immediate assistance for getting a quote from any car service in the area.  Responsible for Keras neural network predicting car damage.",
+                        "tools": {
+                            "languages": [
+                                "Python"
+                            ],
+                            "libraries": [
+                                "Keras",
+                                "Flask",
+                                "Tensorflow"
+                            ]
+                        },
+
+                        "links": {
+                            "github": "https://github.com/RyanPisuena/sdhack2018"
+                        }
+                    },
+                    {
+                        "title": "Trojanhacks 2018: USC Bingo",
+                        "image": "https://lh3.googleusercontent.com/u3t3dUPJB4Xb0l5QUrbtyY0RiIfXhRO1ggv_J59vfXwftAuvFWDJqoDL7lPbUeBezr1b8zJoLYtxT5pIi3wur5VK6gsjdD1WpMl5gz1WVlUetvc1mxxNb_vZYGCsPDz4BrCJWoxReA31wpuRk-ohDPxhufPcvudQ9bYNWyn_rA1JbjMOS7LzI3kE-1uKu9Dj_X52HNTv8cOWquaNHstewNuIIpP4Nos24zCQPuRm2IcQOcFJ306_eNoBa6i3ZP-UpRc2VJ_pzvBnpudk9Ewbd9SbcM6V1a49Zq7Xl0lz80jsK4LEkHWez9ZVCaDWpdIf-hfCUqE-ns1Te4EYI4TQXXAXhBf7TyvPiPoZW-tVzT3ztJmGYsRvJPHts-E_SzfViOlg2qPRD_-1G1pGBamn2ZNybyR3gINoYJT1Tu-iPDsJC5hydI01QA8rnWtRnfqBitO5ZGuThTbQ3WnX5Ah3WkmuYbzY4Gybyy_QwQy-WGumLiHzNgX6xzcrbsW2BX6hWSGclvyzNn8nI-YEYFZTWN_YzfUYgcAAcnVQh9jr-uYgjOBqG1Knsm7ME0tC7HD-SuKolgZSpUCoJ1uAh5daCqQ9hrOV1pzixR3hpvAvVrz9xr0DwXdt5IOe4pmyTwVFQB2y5Nog4Cg2Xq9hE0Iunq_Yn1dEIk0=w1080-h676-no",
+                        "description": "Browser based bingo boards created with a USC theme.  Created in a team of four with combined 12 months of CS experience.  Notice that the bingo boards are randomized - no two links are completely identical.",
+                        "tools": {
+                            "languages": [
+                                "JavaScript",
+                                "HTML",
+                                "CSS"
+                            ],
+                            "libraries": [
+                                "JQuery"
+                            ]
+                        },
+                        "links": {
+                            "github": "https://github.com/CameronPodd/TrojanHacks2018"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "key": "involvement",
+            "title": "Leadership & Involvement",
+            "description": "I've had the pleasure to work at a few awesome places in my life.  Below are the places I've worked.  Toggle to see some of my responsibilities at each place!",
+            "data": [
+                {
+                    "details": [
+                        "Successfully transformed team from $15,000 per year loss to financial viability",
+                        "Spearheaded compliance efforts to secure $8,000 in funding from USC",
+                        "Created three new revenue streams, increasing expected revenues by 20%"
+                    ],
+                    "src": "https://lh3.googleusercontent.com/IUbkyBl6elt90eDv6TY7c5iaq-TVI6E4zQ7a3GQbBEYY2UiBpEEELs3cAHuJHOl6jXjJhj-NbznKftST20yc9uQER9a0fi2HMOfPw4lekCcjVPpZxnrdvvlAa8BvMG0tyAZq7FVwuw5BAezSIieI7gAAmGPyH0zVy3CW6aqcT6zCAAapneRZWxQjv67wqWaxZfHToN9CsX56Det9sKjF2c_TXyy-XpkK9ZgZ5Sm6RllnBder1Ql660fLIXRsNXSpszjnvbe5b7F5h41Qdk4PQlZb93-87OKMQQ7UQCJFFUahlrsB-u09qkhR15MlaSQ3Jc4iitOjEn98QwOUA6QoQS0VCoQb7TRkZx9_KjQ39xL7Ijbl2uzeS7bhY5WTLr7zL8_evw06dByJFTi2uwqi8Xy6AOkwQxT6TZ6VxYlGcyztlUPoYZbK330RKvrjOXjLKF94O4m9pyhgDZFnWcIQULEuSumdlp2cuAh0aNAUwcbDS2ZINzU-7ED0z9PwOPvt6qfT4KM5AyGG1o6ExXduY0fzFpe746-xvJo5R2MWJZerHA7geAinxFrtIZ9oCQAUqk3d4sfqUr9Gqbg5tGRPrv50yzr2uf3IIliloQB5770vqLCam6hXOWOrYBgG148FNP32bwQ0qgOE48Yj3BtE6c-WoxmJxn4=w500-h518-no",
+                    "label": "USC Ice Hockey",
+                    "dates": "May 2019 - Present",
+                    "position": "President"
+                },
+                {
+                    "details": [
+                        "Member of Elite Start-up Incubator, Class of Fall 2018",
+                        "Created, managed, and pitched startup through pre-seed time frame"
+                    ],
+                    "src": "http://usclavalab.org/LavaLab_Circle_Orange.png",
+                    "label": "USC LavaLab",
+                    "dates": "September 2018 - Present",
+                    "position": "Developer"
+                }
+            ]
+        }
+    ]
+}

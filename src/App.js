@@ -1,66 +1,89 @@
-import './App.scss';
-import React from 'react';
-import { Loader, Footer, LoadingAnimation } from './components/components';
+/**
+ * Code Adapted from Alexander Lipianu.
+ */
+
+import "./App.scss";
+import React from "react";
+import { Loader, Footer, LoadingAnimation } from "./components";
 import {
   SplashContainer,
   AboutContainer,
-  TimelineContainer,
+  EducationContainer,
   SkillsContainer,
   ExperienceContainer,
   ProjectsContainer,
-  PensContainer,
-} from './containers/containers';
+  InvolvementContainer
+} from "./containers";
+import data from "./data.json";
 
 /**
  * App component
  */
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { data: null, errorMessage: 'api.alexlipianu.com is currently unavailable or cannot be reached' };
-    this.loader = this.loader.bind(this);
-    this.onSuccess = this.onSuccess.bind(this);
-  }
+  state = {
+    data: null,
+    errorMessage: "Cannot get data"
+  };
 
   /**
    * Fetch app data
    */
-  loader() {
-    return fetch('https://api.alexlipianu.com/sections').then((response) => response.json());
-  }
+  loader = async () => {
+    return data;
+  };
 
   /**
    * Load data into containers
    */
-  onSuccess(result) {
-   result = result.data;
+  onSuccess = result => {
+    result = result.data;
     const data = {};
-    const sections = ['splash', 'about', 'timeline', 'skills', 'experience', 'projects', 'pens'];
-    sections.forEach((section) => {
-      const sectionData = result.find((x) => x._id === section);
+    const sections = [
+      "splash",
+      "about",
+      "education",
+      "skills",
+      "experience",
+      "projects",
+      "involvement"
+    ];
+    for (const section of sections) {
+      const sectionData = result.find(x => x.key === section);
       if (sectionData) {
         data[section] = sectionData;
       }
-    });
+    }
     this.setState({ data });
-  }
+  };
 
   /**
    * Renders app
    */
   render() {
+    const { data } = this.state;
+
+    const dataRender = data ? (
+      <>
+        <SplashContainer {...data.splash} />
+        <AboutContainer {...data.about} />
+        <EducationContainer {...data.education} />
+        <SkillsContainer {...data.skills} />
+        <ExperienceContainer {...data.experience} />
+        <ProjectsContainer {...data.projects} />
+        <InvolvementContainer {...data.involvement} />
+        <Footer />
+      </>
+    ) : null;
+
     return (
-      <Loader loader={this.loader} animation={LoadingAnimation} onSuccess={this.onSuccess} onError={this.onError} errorMessage={this.state.errorMessage}>
-        {this.state.data && <>
-          <SplashContainer {...this.state.data.splash} />
-          <AboutContainer {...this.state.data.about} />
-          <TimelineContainer {...this.state.data.timeline} />
-          <SkillsContainer {...this.state.data.skills} />
-          <ExperienceContainer {...this.state.data.experience} />
-          <ProjectsContainer {...this.state.data.projects} />
-          <PensContainer {...this.state.data.pens} />
-          <Footer />
-        </>}
+      <Loader
+        loader={this.loader}
+        animation={LoadingAnimation}
+        onSuccess={this.onSuccess}
+        onError={this.onError}
+        errorMessage={this.state.errorMessage}
+      >
+        {dataRender}
       </Loader>
     );
   }

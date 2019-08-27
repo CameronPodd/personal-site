@@ -1,3 +1,7 @@
+/**
+ * Code Adapted from Alexander Lipianu.
+ */
+
 @import '../../_shared';
 
 @include keyframes(animate-toggle) {
@@ -6,7 +10,10 @@
 @include keyframes(grow-text) {
   to { @include transform(scale(1.1)); }
 }
-@include fade-body-text(transition-expand-light, null, $theme-light, null, $theme-accent);
+@include fade-body-text(transition-expand-light, null, $theme-light, null, $theme-dark);
+
+
+$image-spacing-bottom: 30px;
 
 .grid-experience {
   .head-collapse {
@@ -22,6 +29,11 @@
     h5 {
       margin: 0;
       padding: 1em;
+    }
+
+    h6 {
+      margin: 0;
+      padding: 0.5em;
     }
 
     &.has-body {
@@ -46,5 +58,11 @@
   .body-collapse {
     padding: 20px;
     &.expanded { @include animation(transition-expand-light .5s ease-in-out 0s alternate forwards); }
+  }
+
+  .image {
+    @extend %non-selectable;
+    @include size(256px);
+    margin-bottom: $image-spacing-bottom;
   }
 }
