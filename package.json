@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@cameronpodd/apicall": "^1.0.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
     "@fortawesome/free-brands-svg-icons": "^5.8.1",
     "@fortawesome/free-regular-svg-icons": "^5.8.1",
@@ -24,21 +25,15 @@
   "scripts": {
     "start": "npm run run-local-dev-environment",
     "build": "npm run build-production-files",
-
     "pregh-pages:deploy": "npm run build",
     "ghpages:deploy": "npm run release-to-gh-pages",
-
     "docker:build": "npm run build-docker-container",
-
     "predocker:start": "npm run docker:build",
     "docker:start": "npm run run-docker-locally",
-
     "predocker:push": "npm run docker:build",
     "docker:push": "npm run push-to-heroku",
-
     "predocker:release": "npm run docker:push",
     "docker:release": "npm run release-on-heroku",
-
     "release-to-gh-pages": "gh-pages -b master -d build",
     "build-production-files": "react-scripts build",
     "run-local-dev-environment": "react-scripts start",
