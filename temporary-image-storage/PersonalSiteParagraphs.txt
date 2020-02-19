@@ -1,0 +1,21 @@
+1.	Splash
+    a.	Cameron Podd
+    b.	Full-Stack Software Engineer
+2.	About
+    a.	My name is Cameron Podd and I am a Full-Stack Software Engineer in Los Angeles, CA.
+    b.	I am an incoming junior pursuing a B.S. in Computer Science / Business Administration and a M.S. in Computer Science at the University of Southern California.
+3.	Education
+    a.	My name is Cameron Podd and I am a Full-Stack Software Engineer in Los Angeles, CA.
+    b.	I am an incoming junior pursuing a B.S. in Computer Science / Business Administration and a M.S. in Computer Science at the University of Southern California.
+4.	Skills
+    a.	Through my brief career in Software Engineering (so far), I've worked with a variety of languages, tools, libraries, and databases.  Take a look below, and toggle to show how I learned each skill.
+5.	Experience
+    a.	I've had the pleasure to work at a few awesome places in my life.  Below are the places I've worked.  Toggle to see some of my responsibilities at each place!
+6.	Projects
+    a.	Below are samples of my personal work spanning the last two years.  Feel free to browse the code or try them out for yourself.
+7.	Leadership & Involvement
+    a.	I've had the pleasure to work at a few awesome places in my life.  Below are the places I've worked.  Toggle to see some of my responsibilities at each place!
+
+LinkedIn
+    Highly motivated and high-performing USC student graduating May 2021 with both an MS in Computer Science and a BS in Computer Science/Business Administration earned jointly in 4 years with high honors. Incoming Software Engineering Intern at Microsoft summer 2020 following successful internship roles in start-ups during the summers of 2018 and 2019. Competitive student-athlete and quick learner with a love of Computer Science and a drive to stay ahead of the curve and make a difference. 
+
